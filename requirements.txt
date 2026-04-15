@@ -1,0 +1,27 @@
+# ============================================================
+# Quantum Computing Research Toolkit — Dependencies
+# ============================================================
+
+# Core Quantum Computing Framework
+qiskit>=1.0.0
+qiskit-aer>=0.14.0          # High-performance quantum simulator
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.11.0               # Classical optimizer (COBYLA/SPSA)
+
+# Visualization
+matplotlib>=3.7.0           # Plots and circuit diagrams
+
+# Terminal UI
+rich>=13.0.0                # Rich terminal tables, panels, progress bars
+
+# Development / Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0           # Coverage reports
+pytest-timeout>=2.1.0       # Prevent hung tests
+
+# Optional: Jupyter Notebook support
+# jupyter>=1.0.0
+# ipywidgets>=8.0.0
+# pylatexenc>=2.10           # LaTeX circuit rendering in notebooks
